@@ -6,11 +6,14 @@
 | kubectl get replicasets  | replicasets  | Get All Replicasets in the Current Namespace  |
 | kubectl get replicaset replicaset-name -o yaml  | replicasets  | Get replicaset output format as YAML  |
 
+## Pods
 ```
 kubectl get pods
 kubectl delete pod <pod-name>
+```
 
-
+## Replicasets
+```
 kubectl get replicasets
 kubectl get replicaset <replicaset-name> -o yaml
 kubectl create -f replicaset-definition.yaml
