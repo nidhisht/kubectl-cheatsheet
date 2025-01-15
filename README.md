@@ -1,10 +1,12 @@
 # kubectl-cheatsheet
 
-| Command | Resource | Purpose|
-|----------|----------|----------|
-| kubectl get pods | pod  | Get All Pods in the Current Namespace  |
-| kubectl get replicasets  | replicasets  | Get All Replicasets in the Current Namespace  |
-| kubectl get replicaset replicaset-name -o yaml  | replicasets  | Get replicaset output format as YAML  |
+| Command | Purpose|
+|----------|----------|
+| kubectl get|  Provides a summarized view of resources. Custom Output using -o  |
+| kubectl describe| Provides detailed information about a specific resource. Event & status section helpful for debugging  |
+| kubectl create  | Creates a new resource. Fails if the resource already exists.  |
+| kubectl apply | Creates or updates a resource.   |
+
 
 ## Pods
 ```
