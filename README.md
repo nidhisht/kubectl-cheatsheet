@@ -2,7 +2,7 @@
 
 | Command | Purpose|
 |----------|----------|
-| kubectl get|  Provides a summarized view of resources. Custom Output using -o  |
+| kubectl get|  Provides a summarized view of resources. Use -o for custom formats like json, yaml  |
 | kubectl describe| Provides detailed information about a specific resource. Event & status section helpful for debugging  |
 | kubectl create  | Creates a new resource. Fails if the resource already exists.  |
 | kubectl apply | Creates or updates a resource.   |
