@@ -9,6 +9,7 @@
 ## Pods
 ```
 kubectl get pods
+kubectl get po
 kubectl delete pod <pod-name>
 kubectl describe pod <pod-name>
 ```
@@ -16,6 +17,7 @@ kubectl describe pod <pod-name>
 ## Replicasets
 ```
 kubectl get replicasets
+kubectl get rs
 kubectl get replicaset <replicaset-name> -o yaml
 kubectl describe replicaset <replicaset-name>
 kubectl create -f replicaset-definition.yaml
