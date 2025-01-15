@@ -13,5 +13,8 @@ kubectl delete pod <pod-name>
 
 kubectl get replicasets
 kubectl get replicaset <replicaset-name> -o yaml
+kubectl create -f replicaset-definition.yaml
+kubectl apply -f replicaset-definition.yaml
+kubectl edit replicaset <replicaset-name>
 kubectl scale replicaset <replicaset-name> --replicas=5
 ```
