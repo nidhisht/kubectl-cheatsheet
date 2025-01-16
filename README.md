@@ -11,6 +11,7 @@
 ## Pods
 ```
 kubectl get pods
+kubectl get pods -o wide
 kubectl get po
 kubectl delete pod <pod-name>
 kubectl describe pod <pod-name>
