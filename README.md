@@ -1,4 +1,5 @@
 # kubectl-cheatsheet
+https://kubernetes.io/docs/reference/kubectl/quick-reference/
 
 | Command | Purpose|
 |----------|----------|
