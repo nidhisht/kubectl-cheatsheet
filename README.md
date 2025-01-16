@@ -28,3 +28,11 @@ kubectl edit replicaset <replicaset-name>
 kubectl scale replicaset <replicaset-name> --replicas=5
 kubectl scale rs <replicaset-name> --replicas=5
 ```
+
+
+## Deployment
+```
+kubectl get deployment
+kubectl get deploy
+kubectl create deployment <deployment-name> --image=<image-name> --replicas=3
+```
