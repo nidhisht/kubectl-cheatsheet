@@ -9,6 +9,14 @@ https://kubernetes.io/docs/reference/kubectl/quick-reference/
 | kubectl apply | Creates or updates a resource.   |
 
 
+## Namespace
+```
+kubectl get namespace
+kubectl get ns
+
+```
+
+
 ## Pods
 ```
 kubectl get pods
@@ -16,6 +24,8 @@ kubectl get pods -o wide
 kubectl get po
 kubectl delete pod <pod-name>
 kubectl describe pod <pod-name>
+kubectl run redis --image=redis
+kubectl get pods --all-namespaces
 ```
 
 ## Replicasets
