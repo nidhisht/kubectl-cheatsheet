@@ -7,7 +7,7 @@ https://kubernetes.io/docs/reference/kubectl/quick-reference/
 | kubectl describe| Provides detailed information about a specific resource. Event & status section helpful for debugging  |
 | kubectl create  | Creates a new resource. Fails if the resource already exists.  |
 | kubectl apply | Creates or updates a resource.   |
-
+| kubectl run | Creates & run single container pod on Kubernetes   |
 
 ## Namespace
 ```
@@ -25,7 +25,6 @@ kubectl get po
 kubectl delete pod <pod-name>
 kubectl describe pod <pod-name>
 kubectl run redis --image=redis
-kubectl run redis -l labelkey=labelvalue --image=redis:alpine
 kubectl get pods --all-namespaces
 ```
 
@@ -48,4 +47,10 @@ kubectl scale rs <replicaset-name> --replicas=5
 kubectl get deployment
 kubectl get deploy
 kubectl create deployment <deployment-name> --image=<image-name> --replicas=3
+```
+
+## Imperative commands
+```
+kubectl run redis --image=redis
+kubectl run redis -l labelkey=labelvalue --image=redis:alpine
 ```
