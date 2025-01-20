@@ -8,6 +8,7 @@ https://kubernetes.io/docs/reference/kubectl/quick-reference/
 | kubectl create  | Creates a new resource. Fails if the resource already exists.  |
 | kubectl apply | Creates or updates a resource.   |
 | kubectl run | Creates & run single container pod on Kubernetes   |
+| kubectl expose | Creates service to expose pod or deployment or replicaset on Kubernetes  |
 
 ## Namespace
 ```
