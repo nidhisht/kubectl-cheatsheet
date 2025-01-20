@@ -63,4 +63,8 @@ kubectl expose pod redis --port=6379 --name redis-service
 
 # Create a deployment named webapp using the image kodekloud/webapp-color with 3 replicas
 kubectl create deployment webapp --image=kodekloud/webapp-color --replicas=3
+
+# Create a new namespace called dev-ns
+kubectl create namespace dev-ns
+
 ```
