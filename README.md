@@ -57,6 +57,6 @@ kubectl run redis --image=redis
 # Create a pod with name as redis, image as redis:alpine and label labelname=labelvalue
 kubectl run redis -l labelkey=labelvalue --image=redis:alpine
 
-# create a service with name redis-service to expose redis pod  on port 6379
+# Create a service redis-service to expose the redis application within the cluster on port 6379
 kubectl expose pod redis --port=6379 --name redis-service
 ```
