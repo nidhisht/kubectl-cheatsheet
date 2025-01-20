@@ -25,6 +25,7 @@ kubectl get po
 kubectl delete pod <pod-name>
 kubectl describe pod <pod-name>
 kubectl run redis --image=redis
+kubectl run redis -l labelkey=labelvalue --image=redis:alpine
 kubectl get pods --all-namespaces
 ```
 
