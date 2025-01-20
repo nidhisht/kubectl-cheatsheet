@@ -14,7 +14,7 @@ https://kubernetes.io/docs/reference/kubectl/quick-reference/
 ```
 kubectl get namespace
 kubectl get ns
-
+kubectl create namespace dev-ns
 ```
 
 
