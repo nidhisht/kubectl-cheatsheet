@@ -25,8 +25,8 @@ kubectl get pods -o wide
 kubectl get po
 kubectl delete pod <pod-name>
 kubectl describe pod <pod-name>
-kubectl run redis --image=redis
 kubectl get pods --all-namespaces
+kubectl run redis --image=redis
 ```
 
 ## Replicasets
@@ -60,4 +60,7 @@ kubectl run redis -l labelkey=labelvalue --image=redis:alpine
 
 # Create a service redis-service to expose the redis application within the cluster on port 6379
 kubectl expose pod redis --port=6379 --name redis-service
+
+# Create a deployment named webapp using the image kodekloud/webapp-color with 3 replicas
+kubectl create deployment webapp --image=kodekloud/webapp-color --replicas=3
 ```
