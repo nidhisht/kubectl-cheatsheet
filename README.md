@@ -50,6 +50,14 @@ kubectl get deploy
 kubectl create deployment <deployment-name> --image=<image-name> --replicas=3
 ```
 
+## ConfigMaps
+```
+kubectl get configmaps
+kubectl create configmap  webapp-config-map --from-literal=APP_COLOR=darkblue --from-literal=APP_OTHER=disregard
+```
+
+
+
 ## Imperative commands
 ```
 # create a pod with redis image
