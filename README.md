@@ -73,9 +73,12 @@ kubectl run httpd --image=httpd:alpine --port=80 --expose
 
 ## SSH into running container
 ```
+# Get list of pods
 kubectl get po
+
+# SSH into a pod
 kubectl exec -it <pod-name> -- /bin/sh
 
-# check environment variable of container
+# check environment variable of the pod (Optional)
 env
 ```
