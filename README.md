@@ -70,3 +70,12 @@ kubectl create namespace dev-ns
 # Create a pod called httpd using the image httpd:alpine in the default namespace. Next, create a service of type ClusterIP by the same name (httpd). The target port for the service should be 80
 kubectl run httpd --image=httpd:alpine --port=80 --expose
 ```
+
+## SSH into running container
+```
+kubectl get po
+kubectl exec -it <pod-name> -- /bin/sh
+
+# check environment variable of container
+env
+```
