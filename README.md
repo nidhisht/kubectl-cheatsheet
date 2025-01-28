@@ -61,7 +61,7 @@ kubectl create configmap  webapp-config-map --from-literal=APP_COLOR=darkblue --
 ## Secrets
 ```
 kubectl get secrets
-kubectl create secret  webapp-config-map --from-literal=password=nidhish --from-literal=host=example.com
+kubectl create secret generic webapp-config-map --from-literal=password=nidhish --from-literal=host=example.com
 
 # NOTE: Secrets are NOT encrypted, but encoded.
 # NOTE: Run below command in Linux to encode/decode
