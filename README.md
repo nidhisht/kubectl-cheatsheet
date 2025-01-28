@@ -53,6 +53,7 @@ kubectl create deployment <deployment-name> --image=<image-name> --replicas=3
 ## ConfigMaps
 ```
 kubectl get configmaps
+kubectl get cm
 kubectl create configmap  webapp-config-map --from-literal=APP_COLOR=darkblue --from-literal=APP_OTHER=disregard
 ```
 
