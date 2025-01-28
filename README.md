@@ -58,6 +58,16 @@ kubectl create configmap  webapp-config-map --from-literal=APP_COLOR=darkblue --
 ```
 
 
+## Secrets
+```
+kubectl get secrets
+kubectl create secret  webapp-config-map --from-literal=password=nidhish --from-literal=host=example.com
+
+# NOTE: Run below command in Linux ti encode the password
+echo -n 'nidhish' | base64
+echo -n 'bmlkaGlzaA==' | base64 --decode
+```
+
 
 ## Imperative commands
 ```
