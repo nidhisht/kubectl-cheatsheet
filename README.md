@@ -6,7 +6,7 @@
 - [Deployment](#Deployment)
 - [ConfigMaps](#ConfigMaps)
 - [Secrets](#Secrets)
-- [Imperative-commands](#Imperative commands)
+- [Imperativecommands](#Imperative commands)
 
 
 ## Introduction
