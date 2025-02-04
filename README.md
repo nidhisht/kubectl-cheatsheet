@@ -102,4 +102,7 @@ kubectl exec -it <pod-name> -- /bin/sh
 
 # check environment variable of the pod (Optional)
 env
+
+# Get user of running pod
+kubectl exec ubuntu-sleeper -- whoami
 ```
