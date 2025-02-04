@@ -6,7 +6,7 @@
 - [Deployment](#Deployment)
 - [ConfigMaps](#ConfigMaps)
 - [Secrets](#Secrets)
-- [Imperative commands](#Imperative)
+- [Imperative commands](#Imperative-commands)
 
 
 ## Introduction
@@ -82,7 +82,7 @@ echo -n 'bmlkaGlzaA==' | base64 --decode
 ```
 
 
-## Imperative commands
+## Imperative-commands
 ```
 # create a pod with redis image
 kubectl run redis --image=redis
