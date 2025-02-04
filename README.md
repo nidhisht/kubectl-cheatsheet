@@ -127,4 +127,5 @@ kubectl exec ubuntu-sleeper -- whoami
 kubectl get serviceaccounts
 kubectl get sa
 kubectl create serviceaccount dashboard-sa
+kubectl create token dashboard-sa
 ```
