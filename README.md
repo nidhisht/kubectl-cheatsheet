@@ -2,6 +2,10 @@
 - [Introduction](#Introduction)
 - [Namespace](#Namespace)
 - [Pods](#Pods)
+- [Replicasets](#Replicasets)
+- [Deployment](#Deployment)
+- [ConfigMaps](#ConfigMaps)
+- [Secrets](#Secrets)
 
 
 ## Introduction
