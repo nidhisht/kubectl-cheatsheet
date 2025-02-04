@@ -7,6 +7,7 @@
 - [ConfigMaps](#ConfigMaps)
 - [Secrets](#Secrets)
 - [Imperative commands](#Imperative-commands)
+- [SSH into container](#SSH-into-container)
 
 
 ## Introduction
@@ -103,7 +104,8 @@ kubectl create namespace dev-ns
 kubectl run httpd --image=httpd:alpine --port=80 --expose
 ```
 
-## SSH into running container
+## SSH-into-container
+SSH into app container
 ```
 # Get list of pods
 kubectl get po
