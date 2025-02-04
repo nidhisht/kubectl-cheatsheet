@@ -119,3 +119,10 @@ env
 # Get user of running pod
 kubectl exec ubuntu-sleeper -- whoami
 ```
+
+
+## ServiceAccount
+```
+kubectl get serviceaccounts
+kubectl get sa
+```
