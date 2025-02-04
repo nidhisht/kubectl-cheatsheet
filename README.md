@@ -1,12 +1,12 @@
 # kubectl-cheatsheet
 - [Introduction](#Introduction)
-- [Command & Purpose](#Command & Purpose)
+- [Namespace](#Namespace)
+- [Pods](#Pods)
 
 
 ## Introduction
 https://kubernetes.io/docs/reference/kubectl/quick-reference/
 
-## Command & Purpose
 | Command | Purpose|
 |----------|----------|
 | kubectl get|  Get summarized view of resources. Use -o for custom formats like json, yaml  |
