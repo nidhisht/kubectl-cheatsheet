@@ -133,5 +133,9 @@ kubectl create token dashboard-sa
 
 ## Taints and Tolerations
 ```
+# Add taint to a node
 kubectl taint nodes node01 spray=mortein:NoSchedule
+
+# Remove taint from node
+kubectl taint nodes node01 node-role.kubernetes.io/control-plane:NoSchedule-
 ```
