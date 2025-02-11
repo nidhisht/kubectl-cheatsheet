@@ -10,6 +10,7 @@
 - [SSH into container](#SSH-into-container)
 - [Service Account](#ServiceAccount)
 - [Taints and Tolerations](#Taints-Tolerations)
+- [Dry run](#dry-run)
 
 
 ## Introduction
@@ -140,3 +141,10 @@ kubectl taint nodes node01 spray=mortein:NoSchedule
 # Remove taint from node (Example: control-plane)
 kubectl taint nodes control-plane node-role.kubernetes.io/control-plane:NoSchedule-
 ```
+
+## dry-run
+```
+kubectl run nginx --image=nginx --dry-run=client -o yaml
+```
+
+
