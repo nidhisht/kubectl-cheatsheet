@@ -9,6 +9,7 @@
 - [Imperative commands](#Imperative-commands)
 - [SSH into container](#SSH-into-container)
 - [Service Account](#ServiceAccount)
+- [Taints and Tolerations](#Taints-Tolerations)
 
 
 ## Introduction
@@ -131,7 +132,7 @@ kubectl create token dashboard-sa
 ```
 
 
-## Taints and Tolerations
+## Taints-Tolerations
 ```
 # Add taint to a node (Example: node01)
 kubectl taint nodes node01 spray=mortein:NoSchedule
