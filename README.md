@@ -129,3 +129,9 @@ kubectl get sa
 kubectl create serviceaccount dashboard-sa
 kubectl create token dashboard-sa
 ```
+
+
+## Taints and Tolerations
+```
+kubectl taint nodes node01 spray=mortein:NoSchedule
+```
