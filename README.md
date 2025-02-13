@@ -9,6 +9,8 @@
 - [Imperative commands](#Imperative-commands)
 - [SSH into container](#SSH-into-container)
 - [Service Account](#ServiceAccount)
+- [Nodes](#Nodes)
+- [Label](#Label)
 - [Taints and Tolerations](#Taints-Tolerations)
 - [Dry run](#dry-run)
 
@@ -130,6 +132,18 @@ kubectl get serviceaccounts
 kubectl get sa
 kubectl create serviceaccount dashboard-sa
 kubectl create token dashboard-sa
+```
+
+## Nodes
+```
+kubectl get nodes
+kubectl get no
+kubectl get no -o wide
+```
+
+## Label
+```
+kubectl label nodes node01 color=blue
 ```
 
 
