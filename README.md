@@ -11,6 +11,7 @@
 - [Service Account](#ServiceAccount)
 - [Nodes](#Nodes)
 - [Label](#Label)
+- [Selectors](#Selectors)
 - [Taints and Tolerations](#Taints-Tolerations)
 - [Dry run](#dry-run)
 
@@ -146,6 +147,11 @@ kubectl get no -o wide
 kubectl label nodes node01 color=blue
 ```
 
+## Selectors
+```
+kubectl get all --selector env=prod
+kubectl get po --selector env=prod --selector=bu=finance --selector tier=frontend
+```
 
 ## Taints-Tolerations
 ```
