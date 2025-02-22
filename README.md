@@ -171,6 +171,14 @@ kubectl get logs <pod-name>
 kubectl get logs <pod-name> -f
 ```
 
+## Monitoring
+```
+kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
+
+kubectl top pods
+kubectl top nodes
+```
+
 ## dry-run
 ```
 kubectl run nginx --image=nginx --dry-run=client -o yaml
