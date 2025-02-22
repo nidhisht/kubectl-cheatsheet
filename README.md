@@ -14,6 +14,7 @@
 - [Selectors](#Selectors)
 - [Taints and Tolerations](#Taints-Tolerations)
 - [Logs](#Logs)
+- [Monitoring](#Monitoring)
 - [Dry run](#dry-run)
 
 
