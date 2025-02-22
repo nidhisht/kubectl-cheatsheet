@@ -13,6 +13,7 @@
 - [Label](#Label)
 - [Selectors](#Selectors)
 - [Taints and Tolerations](#Taints-Tolerations)
+- [Logs](#Logs)
 - [Dry run](#dry-run)
 
 
@@ -160,6 +161,14 @@ kubectl taint nodes node01 spray=mortein:NoSchedule
 
 # Remove taint from node (Example: control-plane)
 kubectl taint nodes control-plane node-role.kubernetes.io/control-plane:NoSchedule-
+```
+
+## Logs
+```
+kubectl get logs <pod-name>
+
+# Get live streaming of logs
+kubectl get logs <pod-name> -f
 ```
 
 ## dry-run
