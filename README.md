@@ -17,6 +17,7 @@
 - [Monitoring](#Monitoring)
 - [Rolling update and rollback](#Rolling-update-Rollback)
 - [Dry run](#dry-run)
+- [Alias](#Alias)
 
 
 ## Introduction
@@ -199,6 +200,12 @@ kubectl rollout undo deployment/<deployment-name>
 ## dry-run
 ```
 kubectl run nginx --image=nginx --dry-run=client -o yaml
+```
+
+## Alias
+```
+# Set Alias on Windows (Temporary Alias)
+doskey k=kubectl
 ```
 
 
