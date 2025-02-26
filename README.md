@@ -15,6 +15,7 @@
 - [Taints and Tolerations](#Taints-Tolerations)
 - [Logs](#Logs)
 - [Monitoring](#Monitoring)
+- [Rolling update and rollback](#Rolling-update-Rollback)
 - [Dry run](#dry-run)
 
 
@@ -178,6 +179,12 @@ kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/late
 
 kubectl top pods
 kubectl top nodes
+```
+
+## Rolling-update-Rollback
+```
+# Check the rollout status of a deployment
+kubectl rollout status deployment/<deployment-name>
 ```
 
 ## dry-run
