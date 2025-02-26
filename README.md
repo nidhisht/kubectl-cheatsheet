@@ -204,7 +204,7 @@ kubectl run nginx --image=nginx --dry-run=client -o yaml
 
 ## Alias
 ```
-# Set temporary Alias on Windows Command Prompt
+# Set temporary alias on Windows Command Prompt
 doskey k=kubectl
 ```
 
