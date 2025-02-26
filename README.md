@@ -188,6 +188,12 @@ Deployment Strategy
 ```
 # Check the rollout status of a deployment
 kubectl rollout status deployment/<deployment-name>
+
+# Check the rollout history of a deployment
+kubectl rollout history deployment/<deployment-name>
+
+# Rollback the deployment
+kubectl rollout undo deployment/<deployment-name>
 ```
 
 ## dry-run
