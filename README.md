@@ -182,6 +182,9 @@ kubectl top nodes
 ```
 
 ## Rolling-update-Rollback
+Deployment Strategy
+1) Recreate - Delete and recreate deployments, causing downtime..
+2) Rolling Update - This is the default deployment strategy. It upgrades one instance at a time—bringing it down, completing the upgrade, and then proceeding to the next. This ensures zero downtime.
 ```
 # Check the rollout status of a deployment
 kubectl rollout status deployment/<deployment-name>
