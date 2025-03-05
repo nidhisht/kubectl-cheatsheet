@@ -216,6 +216,8 @@ kubectl get jobs
 
 # Create job using imerative commands
 kubectl create job <job-name> --image=<image-url>
+
+kubectl delete job <job-name>
 ```
 
 
