@@ -71,6 +71,7 @@ kubectl scale rs <replicaset-name> --replicas=5
 kubectl get deployment
 kubectl get deploy
 kubectl create deployment <deployment-name> --image=<image-name> --replicas=3
+kubectl scale deploy <deployment-name> --replicas=2
 ```
 
 ## ConfigMaps
