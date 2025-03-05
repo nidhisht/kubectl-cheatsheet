@@ -18,6 +18,7 @@
 - [Rolling update and rollback](#Rolling-update-Rollback)
 - [Dry run](#dry-run)
 - [Alias](#Alias)
+- [Jobs](#Jobs)
 
 
 ## Introduction
@@ -207,6 +208,14 @@ kubectl run nginx --image=nginx --dry-run=client -o yaml
 ```
 # Set temporary alias on Windows Command Prompt
 doskey k=kubectl
+```
+
+## Jobs
+```
+kubectl get jobs
+
+# Create job using imerative commands
+kubectl create job <job-name> --image=<image-url>
 ```
 
 
