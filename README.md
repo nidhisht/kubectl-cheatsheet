@@ -19,6 +19,7 @@
 - [Dry run](#dry-run)
 - [Alias](#Alias)
 - [Jobs](#Jobs)
+- [CronJobs](#CronJobs)
 
 
 ## Introduction
@@ -218,6 +219,17 @@ kubectl get jobs
 kubectl create job <job-name> --image=<image-url>
 
 kubectl delete job <job-name>
+```
+
+## CronJobs
+A Job that can be scheduled
+```
+kubectl get cronjob
+
+# Create cron job using imerative commands
+kubectl create cronjob <job-name> --image=<image-url>
+
+kubectl delete cronjob <job-name>
 ```
 
 
