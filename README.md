@@ -227,7 +227,7 @@ A Job that can be scheduled
 kubectl get cronjob
 
 # Create cron job using imerative commands
-kubectl create cronjob <job-name> --image=<image-url>
+kubectl create cronjob <job-name> --image=<image-url> --schedule="*/5 * * * *" -- /bin/sh -c 'echo "Hello, Kubernetes!"'
 
 kubectl delete cronjob <job-name>
 ```
