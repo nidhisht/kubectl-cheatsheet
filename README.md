@@ -21,6 +21,7 @@
 - [Alias](#Alias)
 - [Jobs](#Jobs)
 - [CronJobs](#CronJobs)
+- [Ingress](#Ingress)
 
 
 ## Introduction
@@ -238,6 +239,11 @@ kubectl get cronjob
 kubectl create cronjob <job-name> --image=<image-url> --schedule="*/5 * * * *" -- /bin/sh -c 'echo "Hello, Kubernetes!"'
 
 kubectl delete cronjob <job-name>
+```
+
+## Ingress
+```
+kubectl get ingress --all-namespaces
 ```
 
 
