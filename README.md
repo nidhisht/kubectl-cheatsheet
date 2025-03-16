@@ -244,6 +244,7 @@ kubectl delete cronjob <job-name>
 ## Ingress
 ```
 kubectl get ingress --all-namespaces
+kubectl create ingress simple --rule="foo.com/bar=svc1:8080"
 ```
 
 
