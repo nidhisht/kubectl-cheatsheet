@@ -4,6 +4,7 @@
 - [Pods](#Pods)
 - [Replicasets](#Replicasets)
 - [Deployment](#Deployment)
+- [Service](#Service)
 - [ConfigMaps](#ConfigMaps)
 - [Secrets](#Secrets)
 - [Imperative commands](#Imperative-commands)
@@ -75,6 +76,13 @@ kubectl get deploy
 kubectl create deployment <deployment-name> --image=<image-name> --replicas=3
 kubectl scale deploy <deployment-name> --replicas=2
 ```
+
+## service
+```
+kubectl get service
+kubectl get svc
+```
+
 
 ## ConfigMaps
 ```
