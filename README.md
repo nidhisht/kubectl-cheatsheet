@@ -22,6 +22,7 @@
 - [Jobs](#Jobs)
 - [CronJobs](#CronJobs)
 - [Ingress](#Ingress)
+- [Network Policies](#Network-Policies)
 
 
 ## Introduction
@@ -245,6 +246,12 @@ kubectl delete cronjob <job-name>
 ```
 kubectl get ingress --all-namespaces
 kubectl create ingress simple --rule="foo.com/bar=svc1:8080"
+```
+
+## Network-Policies
+```
+kubectl get networkpolicies
+kubectl get netpol
 ```
 
 
