@@ -254,4 +254,10 @@ kubectl get networkpolicies
 kubectl get netpol
 ```
 
+## KubeConfig
+```
+kubectl config view
+kubectl config set-context --current --namespace=kobswat
+```
+
 
