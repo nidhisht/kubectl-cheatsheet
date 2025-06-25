@@ -23,6 +23,7 @@
 - [CronJobs](#CronJobs)
 - [Ingress](#Ingress)
 - [Network Policies](#Network-Policies)
+- [KubeConfig](#KubeConfig)
 
 
 ## Introduction
