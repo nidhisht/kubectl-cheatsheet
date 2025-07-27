@@ -24,6 +24,8 @@
 - [Ingress](#Ingress)
 - [Network Policies](#Network-Policies)
 - [KubeConfig](#KubeConfig)
+- [Roles](#Roles)
+- [Proxy](#Proxy)
 
 
 ## Introduction
@@ -259,6 +261,24 @@ kubectl get netpol
 ```
 kubectl config view
 kubectl config set-context --current --namespace=kobswat
+```
+
+## Roles
+```
+kubectl get roles
+kubectl get rolebindings
+kubectl describe role <role-name>
+kubectl describe rolebinding <role-binding-name>
+kubectl auth can-i create deployments
+kubectl get clusterroles --no-headers | wc -l
+kubectl get clusterrolebindings --no-headers | wc -l
+```
+
+## Proxy
+```
+kubectl proxy
+kubectl proxy 8001&
+kubectl api-resources
 ```
 
 
